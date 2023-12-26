@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>이미지 갤러리</title>
+  <link rel="stylesheet" href="/gallery/gallery.css">
+</head>
+<body>
+    <p>Diary Gallery</p>
+    
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="이미지 검색">
+      <br>
+      </div>
+  <div class="gallery">
+    <div class="image-container">
+      <img src="/images/1.jpg" alt="이미지 1" onclick="openModal('/images/1.jpg')" data-date="2023-05-01">
+      <div class="overlay">
+        <div class="btn-group">
+          <div class="date"></div>
+          <div class="btn" onclick="openModal('/images/1.jpg')">확대</div>
+          <div class="btn" onclick="downloadImage('/images/1.jpg')">다운로드</div>
+        </div>
+      </div>1234
+    </div>
+   </div>
+
+  <div id="myModal" class="modal">
+    <span class="modal-content">
+      <span class="close-modal" onclick="closeModal()">&times;</span>
+      <img id="modalImg" class="modal-img">
+    </span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

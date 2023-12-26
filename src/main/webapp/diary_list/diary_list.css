@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  font-size: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-family: 'Pacifico', cursive;
+  background-color: rgb(177, 207, 183);
+ }
+ 
+ .mb-3 {
+    margin: 10px 30px 20px 30px;
+    margin-bottom: 1rem;
+}
+.p-3 {
+    padding: 1rem!important;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+.border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+ .container {
+  font-family: 'Pacifico', cursive;
+  color: #516e64;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: ivory;
+ 
+  padding: 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: 30px;
+}
+
+.button_group {
+  
+  margin: 20px;
+  text-align: right;
+}
+
+.button_group .delete {
+    margin: 5px;
+    width: 80px;
+    height: 40px;
+    border-radius: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    background-color: rgb(250, 128, 144);
+    
+}
+hr {
+	display : block;
+}
+.button_optional_select {
+    margin: 20px;
+}
+
+.edit_list {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit_list Tmodal {
+    text-decoration: none;
+}
+
+/* 버튼 */
+.restore:active {
+    background-color: black;
+    color: rgb(250, 128, 144);
+}
+
+.edit:active {
+    background-color: black;
+    color: rgb(74, 191, 211);
+}
+
+/* 버튼 체크박스 */
+.all_button_checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.blind {
+    font-size: 20px;
+}
+
+/*-------------다이어리---------------*/
+
+.modal-body {
+    font-family: Arial, sans-serif;
+    background-color: #efd8ef;
+    margin: 0;
+    padding: 30px;
+}
+
+.modal-body h1 {
+    color: #000000c2;
+    text-align: center;
+}
+
+.modal-body .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.modal-body label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.modal-body select, input[type="color"] {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.modal-body table {
+  width: 100%;
+}
+
+.modal-body th {
+  padding: 10px;
+  text-align: center;
+}
+
+.modal-body td {
+  text-align: center;
+  padding: 20px;
+}
+
+.modal-body #title{
+    max-width: 100%;
+}
+
+.modal-body textarea {
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+}
+
+.modal-body input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.modal-body input[type="button"] {
+  background-color: #a4439cd6;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.modal-body input[type="button"]:hover {
+  background-color: #a4439c;
+}
+
+.modal-body img {
+  display: block;
+  margin: 0 auto;
+  width: 21%;
+}
+
+.modal {
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%,0);   
+}
+
+.modal-content {
+  width: 1000px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.modal-body .container {
+  max-width: none;
+  width: 100%;
+}
+
+.modal-body label {
+    padding: 10px ;
+}
+
+.p-3 mb-3 .border-bottom {
+  margin: 20px 80px 20px 80px;
+  padding: 10px;
+}
+
+a.Tmodal{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+}

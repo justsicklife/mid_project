@@ -1,0 +1,156 @@
+/* 캘린더 위의 해더 스타일(날짜가 있는 부분) */
+
+body {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  background-color: rgb(177, 207, 183);
+}
+
+.fc-header-toolbar {
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+ .mb-3 {
+    margin: 10px 30px 20px 30px;
+    margin-bottom: 1rem;
+}
+
+.p-3 {
+    padding: 1rem!important;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+.border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+.p-3 mb-3 .border-bottom {
+  margin: 20px 80px 20px 80px;
+  padding: 10px;
+}
+
+#calendar-container {
+  overflow: hidden;
+  font-family: 'Pacifico', cursive;
+  font-size: 15px;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#calendar {
+  padding: 40px 70px 70px 50px;  
+  color: rgb(53, 81, 65);
+  background-color: ivory;
+  
+  border-radius: 20px;
+  }
+
+a {
+  color: rgba(0, 0, 0, 0.523);
+  text-decoration: none;
+}
+
+.fc-day-sun a {
+  color: rgb(250, 128, 144)
+}
+
+.fc-day-sat a {
+  color: rgb(74, 191, 211);
+}
+
+/* 위에 */
+.mb-3 {
+  margin: 10px 30px 20px 30px;
+  margin-bottom: 1rem;
+
+}
+
+/* ------------------------------------------------- */
+.modal-header {
+  padding: 13px;
+  background-color: rgb(177, 207, 183);
+}
+
+/* modal 일정 바탕 */
+.modal-content {
+  background-color: ivory;
+  border-radius: 10px;
+}
+
+/* modal 일정 텍스트 박스*/
+#input-message-text {
+  padding: 10px 15px;
+  background-color: ivory;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modal-footer {
+  padding: 1px;
+  background-color: rgb(177, 207, 183);
+}
+
+/* modal 확인, 취소 버튼 */
+.btn {
+  padding: 5px 5px;
+  color: rgb(250, 128, 144)
+}
+.btn:hover {
+    color: rgba(255, 144, 177, 0.727);
+}
+
+/* modal 확인 버튼 */
+.btn-input, .btn-edit, .btn-move-check {
+  color: rgb(74, 191, 211);
+}
+
+.btn-input:hover, .btn-edit:hover, .btn-move-check:hover {
+  color: rgba(102, 225, 247, 0.757);
+}
+
+/* modal 취소 버튼 */
+.btn-input-cancle, .btn-delete, .btn-move-cancle {
+  color: rgb(250, 128, 144);
+}
+
+.btn-input-cancle:hover, .btn-delete:hover, .btn-move-cancle:hover {
+  color: rgba(255, 144, 177, 0.727);
+}
+
+/* modal 닫기 버튼 */
+#btn-close {
+  float: right !important;
+  display: inline;
+}
+
+/* ------------------------------------------------ */
+
+
+/* 캘린더 today 버튼 */
+.fc-today-button {
+  color: rgba(47, 71, 57, 0.66);
+}
+
+
+/* 일정 입력 bar */
+.fc-event-title-container {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgba(203, 235, 210, 0.863);
+  color: rgb(73, 95, 82);
+  border-radius: 7px;
+}
+
+.fc-daygrid-event {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-control {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: ivory;
+}
+
+
+
